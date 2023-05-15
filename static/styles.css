@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+#container, #edit-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#edit-container {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  
+}
+
+h1, h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align:center;
+  color: #000000;
+  margin: 20px;
+  letter-spacing: 2px;
+
+}
+
+#book-form {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+  width: 50vw;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 8px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#book-table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+#book-table th, #book-table td {
+  border: 1px solid #ddd;
+  
+  padding: 8px;
+  text-align: left;
+}
+
+#book-table th {
+  color: #f2f2f2;
+  background-color: #007bff;
+}
+
+.edit-button, .delete-button, .search-button, .add-button {
+  display: inline-block;
+  padding: 5px 7px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.search-button {
+  margin: 10px;
+}
+
+.add-button {
+  float: left;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.edit-button:hover, .delete-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.cancel-button {
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #6c757d;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-left: 1px;
+}
+
+.cancel-button:hover {
+  background-color: #5a6268;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
