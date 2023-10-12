@@ -1,5 +1,17 @@
 # Python Projects
 
+## Table of Contents
+1. [Python Projects](#python-projects)
+2. [Projects](#projects)
+   - [Book Manager](#book-manager)
+     * [Features](#features)
+   - [Contact Manager](#contact-manager)
+     * [Features](#features-1)
+   - [Music App](#music-app)
+     * [Features](#features-2)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+   
 This repository contains several standalone Python projects, each showcasing different aspects of Python programming. The projects include a Book Manager that interacts with a database, a Contact Manager, and a Music App that accesses an external API.
 
 ## Projects
