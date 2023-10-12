@@ -1,4 +1,4 @@
-# Python Projects
+# Python Projects 👋
 
 ## Table of Contents
 1. [Python Projects](#python-projects)
